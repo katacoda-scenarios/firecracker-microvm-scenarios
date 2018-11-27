@@ -5,4 +5,4 @@
     -d '{
         "vcpu_count": 2,
         "mem_size_mib": 1024
-    }'`{{execute T3}}
+    }'`{{execute T1}}

@@ -18,6 +18,10 @@
       {
         "title": "Step 4 - Customise Guest VM",
         "text": "step4.md"
+      },
+      {
+        "title": "Step 5 - View Processes",
+        "text": "step5.md"
       }
     ],
     "intro": {
