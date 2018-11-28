@@ -1,4 +1,4 @@
-The configuration of the instance to launch is defined via a series of HTTP requests.
+The configuration of the instance to launch is defined via a series of HTTP requests. These commands need to run within the **second terminal window**.
 
 ## Set the guest kernel
 
@@ -42,7 +42,7 @@ The instance is now configured and can be started. This is done by issuing a _In
         "action_type": "InstanceStart"
      }'`{{execute T2}}
 
-Within the first terminal, you should see the VM start booting and after a few seconds, a login prompt will appear. If you see the error `KVM_EXIT_FAIL_ENTRY` then a problem has occurred. 
+Within the **first terminal window**, you should see the VM start booting and after a few seconds, a login prompt will appear. If you see the error `KVM_EXIT_FAIL_ENTRY` then a problem has occurred. 
 
 The Firecracker is the parent process ID that will manage the instance. This can be viewed within the process tree.
 

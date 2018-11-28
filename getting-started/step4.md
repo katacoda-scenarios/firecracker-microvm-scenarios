@@ -1,4 +1,4 @@
-With the instance running, it's now possible to login as `root`{{execute T1}} with the password `root`{{execute T1}}.
+With the instance running, access via the **first terminal window**, it's now possible to login as `root`{{execute T1}} with the password `root`{{execute T1}}.
 
 ## Instance Types
 
