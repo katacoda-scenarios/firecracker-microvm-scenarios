@@ -12,20 +12,20 @@
         "text": "step2.md"
       },
       {
-        "title": "Step 3 - Start Guest VM",
+        "title": "Step 3 - Start Alpine",
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Customise Guest VM",
+        "title": "Step 4 - Access Instance",
         "text": "step4.md"
       },
       {
-        "title": "Step 5 - View Processes",
+        "title": "Step 5 - Customise Instance",
         "text": "step5.md"
       }
     ],
     "intro": {
-      "credits": "https://github.com/firecracker-microvm/firecracker/blob/master/docs/getting-started.md",
+      "credits": "Based on https://github.com/firecracker-microvm/firecracker/blob/master/docs/getting-started.md",
       "text": "intro.md"
     },
     "finish": {
