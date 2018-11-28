@@ -30,6 +30,22 @@ Next, define the rootfs and the guest operating system that will be booted.
         "is_read_only": false
     }'`{{execute T2}}
 
+## Configure Logging
+
+Firecracker outputs various logs and metrics about how the system is performing to external systems. For now, disable to metrics using the following command: 
+
+`curl -fsS --unix-socket /tmp/firecracker.sock -i \
+    -X PUT "http://localhost/logger" \
+    -H  "accept: application/json" \
+    -H  "Content-Type: application/json" \
+    -d '{
+           "log_fifo": "/dev/null",
+           "metrics_fifo": "/dev/null",
+           "level": "Error",
+           "show_level": true,
+           "show_log_origin": false
+    }'`{{execute T2}}
+
 ## Start the guest machine
 
 The instance is now configured and can be started. This is done by issuing a _InstanceStart_ action.
