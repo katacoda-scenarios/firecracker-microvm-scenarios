@@ -1,5 +1,5 @@
 {
-  "title": "Getting Started with Firecracker (WIP)",
+  "title": "Getting Started with Firecracker",
   "description": "Launch your first Firecracker based Guest VM",
   "details": {
     "steps": [
@@ -20,7 +20,7 @@
         "text": "step4.md"
       },
       {
-        "title": "Step 5 - Customise Instance",
+        "title": "Step 5 - Customize Instance",
         "text": "step5.md"
       }
     ],
